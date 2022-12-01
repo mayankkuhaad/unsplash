@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(123, 113, 113);
+}
+
+.main{
+  width: 60%;
+  margin: auto;
+  text-align: center; 
+  background-color:rgb(123, 113, 113);
+  padding: 20px;
+}
+.heading{
+  text-align: center;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.search input{
+  margin-top: 15px;
+  display: inline;
+  width: 60%;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.input{
+  display: flexbox;
+  flex-direction: row;
+}
+
+.showitems{
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+}
+
+.submit button{
+background-color: rgb(46, 33, 33);
+color: white;
+display: inline;
+border-radius: 10px;
+height : 30px;
+margin-top: 15px;
+}
